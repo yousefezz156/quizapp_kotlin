@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation = "vertical"
+    android:background="#EFCF6D"
+    >
+    <TextView
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:id = "@+id/txtquestionnum"
+        android:text="quesion 1/10"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textAlignment = "center"
+        android:background="#EAC65A"
+        android:padding="5dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+
+
+        <TextView
+            android:id="@+id/timetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="00:30:00"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/questiontxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dino code is the best place to learn code "
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:background="#DDA90B"
+            />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:id="@+id/radiogroup"
+            >
+
+            <RadioButton
+                android:id="@+id/radio_Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RadioButton"
+                android:button="@null"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:layout_margin="30dp"
+                android:background="#DDA90B"
+                />
+
+            <RadioButton
+                android:id="@+id/radio_Button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:text="RadioButton"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textAlignment="center"
+                android:layout_margin="30dp"
+                android:background="#DDA90B"
+
+                />
+
+
+        </RadioGroup>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Button" />
+
+
+</LinearLayout>

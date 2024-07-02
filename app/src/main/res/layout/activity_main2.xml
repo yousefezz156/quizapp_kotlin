@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:gravity="center"
+    android:background="#938404"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:background="@color/yellow">
+
+        <TextView
+            android:id="@+id/highscoretx"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="high score:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/yellow"
+            android:padding="10dp"
+
+            />
+        <TextView
+            android:id="@+id/totalquestionstx"
+            android:textAlignment="textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="total questions:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/yellow"
+            android:padding="10dp"
+
+            />
+        <TextView
+            android:id="@+id/correcttx"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="correct:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/yellow"
+            android:padding="10dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/wrongtx"
+            android:textAlignment="textStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="wrong:"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:background="@color/yellow"
+            android:padding="10dp"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/playagainbt"
+                android:text="play again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                />
+            <Button
+                android:id="@+id/main_menubt"
+                android:text="main menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
